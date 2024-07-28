@@ -163,8 +163,8 @@ footer > .container{
     .container{
         grid-template-columns: repeat(2, 1fr);
         margin: 10% 13%;
-        column-gap: 2rem;
-        row-gap: 5rem;
+        column-gap: 1rem;
+        row-gap: 4rem;
     }
 }
 @media screen and (max-width: 768px) {
@@ -197,7 +197,7 @@ footer > .container{
         padding: 2rem;
         grid-template-columns: repeat(1, 1fr);
         width: 50%;
-        margin-left: 2.2rem;
+        margin: auto;
     }
     .iconos_footer{
         column-gap: 5rem;
@@ -210,8 +210,18 @@ footer > .container{
 @media screen and (max-width: 615px) {
        /* --- SECTION CARDS --- */
     .container{
-        margin: 10% 20%;
+        margin: 10% 25%;
     }
+    footer > .container{
+        /* padding: 2rem; */
+        grid-template-columns: repeat(1, 1fr);
+        width: 60%;
+        margin: auto;
+    }
+    .iconos_footer{
+        column-gap: 2.5rem;
+    }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -231,24 +241,25 @@ footer > .container{
     /* --- SECTION CARDS --- */
     .container{
         grid-template-columns: repeat(1, 1fr);
-        margin: 10% 12%;
+        margin: 10% 18%;
         /* row-gap: 4rem; */
     }
     /* --- FOOTER --- */
     footer{
-        height: 10rem;
+        height: 12rem;
     }
     footer > .container{
         padding: 2rem;
         grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        width: 70%;
        
     }
     .iconos_footer{
         column-gap: 1.5rem;
+        margin-left: 1.7rem;
     }
     .text_footer{
         margin-top: -15%;          
-        margin-left: -1.5rem;
+        margin-left: 0.5rem;
     }
 }
